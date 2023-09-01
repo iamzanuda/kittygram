@@ -1,0 +1,5 @@
+IP: 84.201.140.123;
+name_taski: https://hohost.hopto.org/;
+name_kittygram: https://kittykilogram.hopto.org/;
+login: y;
+password: y;
