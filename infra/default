@@ -1,5 +1,6 @@
 server {
     server_name hohost.hopto.org;
+    server_tokens off;
 
     location /api/ {
         proxy_pass http://127.0.0.1:8000;
@@ -28,6 +29,7 @@ server {
 
 server {
     server_name kittykilogram.hopto.org;
+    server_tokens off;
 
     location /api/ {
         client_max_body_size 20M;
@@ -71,6 +73,7 @@ server {
     } # managed by Certbot
 
     server_name hohost.hopto.org kittykilogram.hopto.org;
+    server_tokens off;
     listen 80;
     return 404; # managed by Certbot
 }
