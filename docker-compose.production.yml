@@ -22,12 +22,12 @@ services:
     env_file: .env
     command: cp -r /app/build/. /static/
     volumes:
-      - static:/static
+      - static:/static/
   gateway:
     image: mralmostfreeman/kittygram_gateway
     env_file: .env
     volumes:
-      - static:/static
+      - static:/static/
       - media:/app/media/
     depends_on: 
       - backend  
