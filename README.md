@@ -4,7 +4,7 @@
 
 Это полностью рабочий проект, который состоит из бэкенд-приложения на Django и фронтенд-приложения на React.
 
-- Проект Kittygram доступен по доменному имени kittykilogram.hopto.org.
+- Проект Kittygram доступен по доменному имени [**kittykilogram.hopto.org**](https://kittykilogram.hopto.org/)
 
 ## Как проверить работу с помощью автотестов
 
