@@ -19,5 +19,4 @@
 + CI/CD
 + GitHub Actions
 
-
-Автор Ярослав Б.
+**Автор:** Yaroslav Baramykov
